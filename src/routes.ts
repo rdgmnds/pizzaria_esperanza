@@ -26,7 +26,7 @@ import { DetailOrderController } from './controllers/order/DetailOrderController
 
 const router = Router();
 
-const upload = multer(uploadConfig.upload("./tmp"))
+//const upload = multer(uploadConfig.upload("./tmp"))
 
 // USER
 router.post('/users', new CreateUserController().handle);
@@ -38,7 +38,8 @@ router.post('/category', isAuthenticated, new CreateCategoryController().handle)
 router.get('/categories', isAuthenticated, new ListCategoryController().handle);
 
 // PRODUCT
-router.post('/product', isAuthenticated, upload.single('file'), new CreateProductController().handle);
+//router.post('/product', isAuthenticated, upload.single('file'), new CreateProductController().handle);
+router.post('/product', isAuthenticated, new CreateProductController().handle);
 router.get('/category/product', isAuthenticated, new ListByCategoryController().handle);
 
 // ORDER

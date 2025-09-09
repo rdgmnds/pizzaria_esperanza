@@ -1,0 +1,1 @@
+{"version":3,"file":"ListFirstOrdersController.d.ts","sourceRoot":"","sources":["../../../src/controllers/order/ListFirstOrdersController.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AAE5C,cAAM,oBAAoB;IAChB,MAAM,CAAE,GAAG,EAAE,OAAO,EAAE,GAAG,EAAE,QAAQ;CAS5C;AAED,OAAO,EAAE,oBAAoB,EAAE,CAAC"}
