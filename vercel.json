@@ -6,11 +6,5 @@
             "use": "@vercel/node",
             "config": { "includeFiles": ["dist/**"] }
         }
-    ],
-    "router": [
-        {
-            "src": "/(.*)",
-            "dest": "dist/server.js"
-        }
     ]
 }
